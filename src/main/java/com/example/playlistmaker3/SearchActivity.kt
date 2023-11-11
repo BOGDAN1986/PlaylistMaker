@@ -1,12 +1,12 @@
-package com.example.playlistmaker
+package com.example.playlistmaker3
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
-class MediaLibraryActivity : AppCompatActivity() {
+class SearchActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_media_library)
+        setContentView(R.layout.activity_search)
     }
 }
 
